@@ -1,0 +1,34 @@
+{
+    "name": "nullref/ok-api",
+    "description": "API for ok.ru",
+    "keywords": [
+        "api",
+        "ok",
+        "rest"
+    ],
+    "homepage": "https://github.com/NullRefExcep/ok-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Karpovych",
+            "email": "zayec77@gmail.com",
+            "homepage": "https://github.com/ZAYEC77"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/NullRefExcep/ok-api/issues",
+        "source": "https://github.com/NullRefExcep/ok-api"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nullref\\okapi\\": "src/"
+        }
+    }
+}
